@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h2>Pilotos Legendarios</h2>
+
+<div class="cards">
+
+{% for rider in riders %}
+
+<div class="card">
+
+    <h3>{{ rider.name }}</h3>
+
+    <p><strong>País:</strong> {{ rider.country }}</p>
+
+    <p><strong>Títulos:</strong> {{ rider.titles }}</p>
+
+    <a href="/rider/{{ rider.id }}">
+        Ver detalles
+    </a>
+
+</div>
+
+{% endfor %}
+
+</div>
+
+{% endblock %}

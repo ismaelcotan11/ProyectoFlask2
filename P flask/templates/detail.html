@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h2>{{ rider.name }}</h2>
+
+<p>
+    <strong>País:</strong>
+    {{ rider.country }}
+</p>
+
+<p>
+    <strong>Títulos mundiales:</strong>
+    {{ rider.titles }}
+</p>
+
+<p>
+    <strong>Equipo:</strong>
+    {{ rider.team }}
+</p>
+
+<a href="/riders">
+    Volver
+</a>
+
+{% endblock %}

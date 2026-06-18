@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Valentino Rossi",
+        "country": "Italia",
+        "titles": 9,
+        "team": "Yamaha"
+    },
+    {
+        "id": 2,
+        "name": "Marc Marquez",
+        "country": "España",
+        "titles": 8,
+        "team": "Ducati"
+    },
+    {
+        "id": 3,
+        "name": "Jorge Lorenzo",
+        "country": "España",
+        "titles": 5,
+        "team": "Yamaha"
+    },
+    {
+        "id": 4,
+        "name": "Casey Stoner",
+        "country": "Australia",
+        "titles": 2,
+        "team": "Ducati"
+    }
+]
